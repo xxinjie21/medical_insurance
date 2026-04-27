@@ -1,0 +1,66 @@
+server:
+  port: 8080
+
+
+spring:
+  application:
+    name: insurance
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/medical_insurance?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+      password:
+      timeout: 5000ms
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: -1ms
+
+# MyBatis-Plus配置
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  type-aliases-package: com.xxj.insurance.domain.po
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: assign_id
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+# PageHelper分页配置
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+
+# JWT配置
+jwt:
+  # 密钥（自己改复杂点）
+  secret: mireimbursement-jwt-secret-key-2024
+  # 过期时间（毫秒）24小时 = 86400000
+  expiration: 86400000
+  # 前端传的前缀
+  token-prefix: Bearer
+  # 请求头名称
+  token-header: Authorization
+
+# 日志配置
+logging:
+  level:
+    com.xxj.mireimbursement: debug
+    org.springframework.security: debug
+

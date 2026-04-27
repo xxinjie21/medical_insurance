@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EasyCodeTableSetting">
+    <option name="tableInfoMap">
+      <map>
+        <entry key="medical_insurance.declare_batch" value="eyJuYW1lIjoiRGVjbGFyZUJhdGNoIiwicHJlTmFtZSI6IiIsImNvbW1lbnQiOiLnlLPmiqXmibnmrKHooagiLCJ0ZW1wbGF0ZUdyb3VwTmFtZSI6IkRlZmF1bHQiLCJmdWxsQ29sdW1uIjpbeyJuYW1lIjoiaWQiLCJ0eXBlIjoiamF2YS5sYW5nLkxvbmciLCJjdXN0b20iOmZhbHNlLCJleHQiOiJ7fSJ9LHsibmFtZSI6ImJhdGNoTm8iLCJ0eXBlIjoiamF2YS5sYW5nLlN0cmluZyIsImN1c3RvbSI6ZmFsc2UsImV4dCI6Int9In0seyJuYW1lIjoidG90YWxOdW0iLCJ0eXBlIjoiamF2YS5sYW5nLkludGVnZXIiLCJjdXN0b20iOmZhbHNlLCJleHQiOiJ7fSJ9LHsibmFtZSI6InRvdGFsQW1vdW50IiwidHlwZSI6ImphdmEubGFuZy5Eb3VibGUiLCJjdXN0b20iOmZhbHNlLCJleHQiOiJ7fSJ9LHsibmFtZSI6ImRlY2xhcmVVc2VyIiwidHlwZSI6ImphdmEubGFuZy5TdHJpbmciLCJjdXN0b20iOmZhbHNlLCJleHQiOiJ7fSJ9LHsibmFtZSI6ImRlY2xhcmVUaW1lIiwidHlwZSI6ImphdmEudXRpbC5EYXRlIiwiY3VzdG9tIjpmYWxzZSwiZXh0Ijoie30ifSx7Im5hbWUiOiJzdGF0dXMiLCJ0eXBlIjoiamF2YS5sYW5nLkludGVnZXIiLCJjdXN0b20iOmZhbHNlLCJleHQiOiJ7fSJ9XSwic2F2ZVBhY2thZ2VOYW1lIjoiIiwic2F2ZVBhdGgiOiIuL3NyYy9tYWluL2phdmEiLCJzYXZlTW9kZWxOYW1lIjoiaW5zdXJhbmNlIn0=" />
+      </map>
+    </option>
+  </component>
+</project>
